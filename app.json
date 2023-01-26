@@ -1,12 +1,15 @@
 {
-    "name": "FileRenameBot",
-    "description": "Telegram File Renamer Bot ",
+    "name": "Telegram Files Store Bot",
+    "description": "A Telegram Files Store Bot in Pyrogram by @AbirHasan2005",
     "keywords": [
-        "Renamer Bot",
-        "Mongo DB"
+        "telegram",
+        "files",
+        "store",
+        "bot"
     ],
     "repository": "https://github.com/Savezmalik002/FileRenameBot",
-    "success_url": "https://telegram.dog/mo_tech_group",
+    "website": "https://telegram.dog/AbirHasan2005",
+    "success_url": "https://t.me/Discovery_Updates",
     "env": {
         "APP_ID": {
             "description": "Your APP ID From my.telegram.org or @MT_MytelegramOrg_Bot",
@@ -37,5 +40,11 @@
         {
             "url": "heroku/python"
         }
-    ]
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "eco"
+        }
+    }
 }
